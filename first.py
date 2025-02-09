@@ -4,6 +4,7 @@ import pyttsx3
 
 # Path to Tesseract executable (change to your Tesseract installation path)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+db = 'MongoDB'
 
 def preprocess_image(image_path):
     # Load the image from the path
